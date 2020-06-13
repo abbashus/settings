@@ -3,6 +3,10 @@ alias gs="git status"
 alias gl="git log -1"
 alias gll="git log -1"
 
+if [ -f ~/.git-completion.bash ]; then
+  . ~/.git-completion.bash
+fi
+
 # to clean elasticsearch plugin directory
 alias cpd="rm -rf *.txt *.jar *.zip *.properties"
 
