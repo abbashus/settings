@@ -7,7 +7,7 @@ Repository to hold various settings
 ### MACOS Setup
 
 1. Install git
-2. Make Git autocomplete
+2. Make Git auto-complete . See [here](https://medium.com/@dilankam/enable-auto-completion-of-git-commands-on-mac-os-mojave-10-14-2d692c100bc) for more
   - Find if Git auto-completion script already exist
   ```
   sudo find / -type f -name "git-completion.bash"
